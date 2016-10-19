@@ -262,12 +262,12 @@ class Ps_Advertising extends Module implements WidgetInterface
                                 array(
                                     'id' => 'active_on',
                                     'value' => 1,
-                                    'label' => $this->getTranslator()->trans('Enabled', array(), 'Modules.BestSellers.Admin')
+                                    'label' => $this->getTranslator()->trans('Enabled', array(), 'Modules.Advertising.Admin')
                                 ),
                                 array(
                                     'id' => 'active_off',
                                     'value' => 0,
-                                    'label' => $this->getTranslator()->trans('Disabled', array(), 'Modules.BestSellers.Admin')
+                                    'label' => $this->getTranslator()->trans('Disabled', array(), 'Modules.Advertising.Admin')
                                 )
                         ),
                     ),
@@ -280,12 +280,12 @@ class Ps_Advertising extends Module implements WidgetInterface
                             array(
                                 'id' => 'active_on',
                                 'value' => 1,
-                                'label' => $this->getTranslator()->trans('Enabled', array(), 'Modules.BestSellers.Admin')
+                                'label' => $this->getTranslator()->trans('Enabled', array(), 'Modules.Advertising.Admin')
                             ),
                             array(
                                 'id' => 'active_off',
                                 'value' => 0,
-                                'label' => $this->getTranslator()->trans('Disabled', array(), 'Modules.BestSellers.Admin')
+                                'label' => $this->getTranslator()->trans('Disabled', array(), 'Modules.Advertising.Admin')
                             )
                         ),
                     ),
