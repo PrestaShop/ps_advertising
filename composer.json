@@ -1,7 +1,7 @@
 {
-  "name": "prestashop/blockadvertising",
-  "description": "PrestaShop module blockadvertising",
-  "homepage": "https://github.com/PrestaShop/blockadvertising",
+  "name": "prestashop/ps_advertising",
+  "description": "PrestaShop - Advertising",
+  "homepage": "https://github.com/PrestaShop/ps_advertising",
   "license": "AFL - Academic Free License (AFL 3.0)",
   "authors": [
     {
@@ -10,7 +10,7 @@
     }
   ],
   "require": {
-    "php": ">=5.3.2"
+    "php": ">=5.4.0"
   },
   "config": {
     "preferred-install": "dist"
