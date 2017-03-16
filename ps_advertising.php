@@ -57,7 +57,7 @@ class Ps_Advertising extends Module implements WidgetInterface
 
         $this->displayName = $this->getTranslator()->trans('Advertising block', array(), 'Modules.Advertising.Admin');
         $this->description = $this->getTranslator()->trans('Adds an advertisement block to selected sections of your e-commerce website.', array(), 'Modules.Advertising.Admin');
-        $this->ps_versions_compliancy = array('min' => '1.7.0.0', 'max' => _PS_VERSION_);
+        $this->ps_versions_compliancy = array('min' => '1.7.1.0', 'max' => _PS_VERSION_);
 
         $this->initialize();
     }
@@ -231,7 +231,7 @@ class Ps_Advertising extends Module implements WidgetInterface
         $fields_form = array(
             'form' => array(
                 'legend' => array(
-                    'title' => $this->getTranslator()->trans('Configuration', array(), 'Modules.Advertising.Admin'),
+                    'title' => $this->getTranslator()->trans('Configuration', array(), 'Admin.Global'),
                     'icon' => 'icon-cogs'
                 ),
                 'input' => array(
@@ -255,43 +255,43 @@ class Ps_Advertising extends Module implements WidgetInterface
                     ),
                     array(
                         'type' => 'switch',
-                        'label' => $this->getTranslator()->trans('Display on the left column', array(), 'Modules.Advertising.Admin'),
+                        'label' => $this->getTranslator()->trans('Display in the left column', array(), 'Modules.Advertising.Admin'),
                         'name' => 'left_column',
                         'is_bool' => true,
                         'values' => array(
                                 array(
                                     'id' => 'active_on',
                                     'value' => 1,
-                                    'label' => $this->getTranslator()->trans('Enabled', array(), 'Modules.Advertising.Admin')
+                                    'label' => $this->getTranslator()->trans('Enabled', array(), 'Admin.Global')
                                 ),
                                 array(
                                     'id' => 'active_off',
                                     'value' => 0,
-                                    'label' => $this->getTranslator()->trans('Disabled', array(), 'Modules.Advertising.Admin')
+                                    'label' => $this->getTranslator()->trans('Disabled', array(), 'Admin.Global')
                                 )
                         ),
                     ),
                     array(
                         'type' => 'switch',
-                        'label' => $this->getTranslator()->trans('Display on the right column', array(), 'Modules.Advertising.Admin'),
+                        'label' => $this->getTranslator()->trans('Display in the right column', array(), 'Modules.Advertising.Admin'),
                         'name' => 'right_column',
                         'is_bool' => true,
                         'values' => array(
                             array(
                                 'id' => 'active_on',
                                 'value' => 1,
-                                'label' => $this->getTranslator()->trans('Enabled', array(), 'Modules.Advertising.Admin')
+                                'label' => $this->getTranslator()->trans('Enabled', array(), 'Admin.Global')
                             ),
                             array(
                                 'id' => 'active_off',
                                 'value' => 0,
-                                'label' => $this->getTranslator()->trans('Disabled', array(), 'Modules.Advertising.Admin')
+                                'label' => $this->getTranslator()->trans('Disabled', array(), 'Admin.Global')
                             )
                         ),
                     ),
                 ),
                 'submit' => array(
-                    'title' => $this->getTranslator()->trans('Save', array(), 'Modules.Advertising.Admin'),
+                    'title' => $this->getTranslator()->trans('Save', array(), 'Admin.Actions'),
                 )
             ),
         );
