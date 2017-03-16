@@ -48,7 +48,7 @@ class Ps_Advertising extends Module implements WidgetInterface
     {
         $this->name = 'ps_advertising';
         $this->tab = 'advertising_marketing';
-        $this->version = '1.0.1';
+        $this->version = '1.0.2';
         $this->author = 'PrestaShop';
         $this->need_instance = 0;
 
