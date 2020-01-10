@@ -2,7 +2,7 @@
   "name": "prestashop/ps_advertising",
   "description": "PrestaShop - Advertising",
   "homepage": "https://github.com/PrestaShop/ps_advertising",
-  "license": "AFL - Academic Free License (AFL 3.0)",
+  "license": "AFL-3.0",
   "authors": [
     {
       "name": "PrestaShop SA",
