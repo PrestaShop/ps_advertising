@@ -2,7 +2,7 @@
 
 ## About
 
-Adds an advertisement block to selected sections of your e-commerce website.
+Go where you want and offer your business its own advertising space, led by your own rules.
 
 ## Multistore compatibility
 
