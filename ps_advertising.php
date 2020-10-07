@@ -56,7 +56,7 @@ class Ps_Advertising extends Module implements WidgetInterface
         parent::__construct();
 
         $this->displayName = $this->getTranslator()->trans('Advertising block', array(), 'Modules.Advertising.Admin');
-        $this->description = $this->getTranslator()->trans('Adds an advertisement block to selected sections of your e-commerce website.', array(), 'Modules.Advertising.Admin');
+        $this->description = $this->getTranslator()->trans('Go where you want and offer your business its own advertising space, led by your own rules.', array(), 'Modules.Advertising.Admin');
         $this->ps_versions_compliancy = array('min' => '1.7.1.0', 'max' => _PS_VERSION_);
 
         $this->initialize();
